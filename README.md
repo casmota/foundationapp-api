@@ -6,13 +6,9 @@ Java, Springboot and H2 database
 
 ## Project setup instructions
 
-* install nodejs 20.14.0
-* install yarn
->**npm install --global yarn**
-* unzip foundationapp.zip
-* Installing all the dependencies of project
->**yarn install**
+* install java 17
+* unzip foundationapp-api.zip
 * run the application
->**yarn dev**
-* in your browse go to
->**http://localhost:5173/**
+>**java -jar nonprofitapp-0.0.1-SNAPSHOT.jar**
+* in your browse test the H2 database in memory and set **JDBC URL** to: _**jdbc:h2:mem:testdb**_ in the login dialog, and then click on the _Connect_ button
+>**http://localhost:8080/h2-ui/**
